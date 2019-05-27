@@ -21,7 +21,7 @@ h6 {
     margin: 0px;
 }
 h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 56px;
     color: #fff;
 }
@@ -337,7 +337,10 @@ a:active {
 
 #hero-area {
   padding:110px 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #6db3f2 0%, #41aba0 100%) repeat scroll 0 0;
+    /*background: rgba(0, 0, 0, 0) linear-gradient(135deg, #6db3f2 0%, #41aba0 100%) repeat scroll 0 0; */	
+	background: url(../images/dcs.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #hero-area:before {
     content: "";
@@ -353,13 +356,18 @@ a:active {
 }
 #hero-area .block {
   padding-top: 0px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 3px;
+  padding: 8px;
 }
 #hero-area .block h1 {
   margin-bottom: 35px;
   text-transform: uppercase;
   font-size: 40px;
-  letter-spacing: 6px;
+  /*! letter-spacing: 6px; */
   position: relative;
+  color: #444;
+  text-align: center;
 }
 #hero-area .block h1:before {
   content: "";
@@ -489,9 +497,9 @@ a:active {
 #hero-area .block {
 }
 #hero-area .block p {
-    color: #fff;
+    color: #000;
     font-size: 18px; 
-    font-weight: 300;
+    font-weight: 500;
     line-height: 30px;
 }
 
@@ -509,7 +517,7 @@ a:active {
     text-align: center;
 }
 #hero-area .block .counter ul li {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     color: #fff;
     display: inline-block;
     line-height: 25px;
