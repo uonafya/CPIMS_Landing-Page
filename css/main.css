@@ -524,7 +524,7 @@ a:active {
     padding: 25px 28px 20px;
     text-align: center;
     width: 49%;
-    height: 55%;
+    height: 10%;
     margin-bottom: 3px;
 }
 #hero-area .block .counter ul li span {
@@ -873,4 +873,9 @@ footer p a {
 }
 footer p a:hover {
   color: #fff;
+}
+.right{
+    position: absolute;
+    right: 0px;
+    width: 300px;
 }
