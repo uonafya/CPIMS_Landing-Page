@@ -875,9 +875,8 @@ footer p a:hover {
   color: #fff;
 }
 .right{
-    position: absolute;
-    margin-top: -100px;
-    right: 400px;
+    align-items: right;
+    right: 400px; 
     width: 300px;
 }
 .border{
